@@ -12,3 +12,5 @@ user_cols = ['user_id', 'age', 'gender', 'occupation', 'zip_code']
 #name=user_cols means column's names will be the user_cols list
 users = pd.read_table('http://bit.ly/movieusers', sep='|', header=None, names=user_cols)
 print(users.head())
+
+
